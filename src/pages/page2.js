@@ -2,7 +2,6 @@ import * as React from "react"
 const Page2 = () => {
   return (
     <div className="main">
-      <Script src="" />
       <h1> Page number two</h1>
       <p>New page number two</p>
     </div>
