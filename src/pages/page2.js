@@ -1,7 +1,21 @@
 import * as React from "react"
+import { Link } from "gatsby"
 const Page2 = () => {
   return (
     <div className="main">
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/page1">page 1</Link>
+          </li>
+          <li>
+            <Link to="/page2">page 2</Link>
+          </li>
+        </ul>
+      </nav>
       <h1> Page number two</h1>
       <p>New page number two</p>
     </div>

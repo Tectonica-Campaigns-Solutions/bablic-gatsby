@@ -1,8 +1,21 @@
 import * as React from "react"
-import { Script } from "gatsby"
+import { Link } from "gatsby"
 const Page1 = () => {
   return (
     <div className="main">
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/page1">page 1</Link>
+          </li>
+          <li>
+            <Link to="/page2">page 2</Link>
+          </li>
+        </ul>
+      </nav>
       <h1> Page number one</h1>
       <p>Testing porpuses</p>
     </div>

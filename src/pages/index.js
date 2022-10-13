@@ -1,5 +1,5 @@
 import * as React from "react"
-
+import { Link } from "gatsby"
 const pageStyles = {
   color: "#232129",
   padding: 96,
@@ -126,7 +126,19 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/page1">page 1</Link>
+          </li>
+          <li>
+            <Link to="/page2">page 2</Link>
+          </li>
+        </ul>
+      </nav>
       <h1 style={headingStyles}>
         Congratulations
         <br />
