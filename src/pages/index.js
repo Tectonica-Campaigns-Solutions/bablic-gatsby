@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Script } from "gatsby"
 
 const pageStyles = {
   color: "#232129",
@@ -126,6 +127,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <Script src="//d.bablic.com/snippet/6347e74b566d76000106e467.js?version=3.9" />
       <h1 style={headingStyles}>
         Congratulations
         <br />
